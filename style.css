@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family:"Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color:  #330031;
+}
+.menu{
+    width: 100%;
+    z-index: 999;
+    padding: 2px 3%;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    font-size: 1.3em;
+    font-weight: 200;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    border-bottom: solid white;
+}
+.main{
+    top:60px;
+    padding-bottom: 100px;
+}
+.icon li{
+    list-style: none;
+    font-size: 1.3em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.icon ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon ul a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+.search{
+    width: 300px;
+    height: 36px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFCCFD;
+    border: solid white;
+    border-radius: 25px;
+}
+.search a{
+    margin: 5px;
+    background-color: #FFCCFD;
+    font-size: medium;
+    text-align: center;
+    background-color: none;
+    text-decoration: none;
+    font-size: medium;
+}
+.search i{
+     background-color: #FFCCFD;
+}
+.g-t{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    line-height: 2;
+}
+.g-t li{
+    color:white;
+    line-height: 5;
+    text-align: center;
+
+}
+.g-t p{
+   color: white;
+}
+.g-t a{
+    color: white;
+}
+.g-t i{
+    color: white;
+}
+.g-t-b{
+    border-right:  solid white;
+    padding: 30px;
+}
+.g-t-p{
+    border-left: solid white;
+    padding: 30px;
+}
+.footer{
+    text-align: center;
+    color: white;
+    border-top: solid white;
+    font-size: small;
+}
+.tarif{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    background-color:#330031;
+}
+.card{
+    
+    background-color: white;
+    width: 250px;
+    height: 360px;
+    margin-bottom: 30px; 
+    padding: 20px; 
+    border-radius: 20px;
+    color: #000000;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.365);
+    transition: transform 0.3s;
+}
+.catigori h2{
+    color: black;
+    background: white;
+    text-align: center;
+}
+.catigori p{
+    font-size: small;
+    color: #000000;
+    background-color: white;
+    height: 150px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-radius: 35px;
+}
+.button{
+    font-size: larger;
+    color: white;
+    border: none;
+}
