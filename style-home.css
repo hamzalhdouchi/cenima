@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "comfortaa" sans-serif;
+}
+
+.menu {
+    width: 100%;
+    z-index: 999;
+    position: relative;
+}
+
+.nav-bar {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    font-size: 1.3em;
+    font-weight: 200;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    top: 0;
+    width: 100%;
+    border-bottom: solid white;
+}
+
+.nav-bar h2 {
+    margin-top: 10px;
+    color: black;
+}
+
+.main {
+    top: 60px;
+    padding-bottom: 100px;
+}
+
+.icon li {
+    list-style: none;
+    font-size: 1.3em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.icon li a:hover {
+    color: #FFCCFD;
+}
+
+.icon ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon ul a {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+
+.search {
+    width: 300px;
+    height: 36px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFCCFD;
+    border: solid #FFCCFD;
+    border-radius: 25px;
+}
+
+.search input {
+    color: white;
+    height: 36px;
+    width: 200px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.search a {
+    margin: 5px;
+    padding-right: 30px;
+    background-color: #FFCCFD;
+    font-size: medium;
+    text-align: center;
+    background-color: none;
+    text-decoration: none;
+    font-size: medium;
+    border: none;
+}
+
+.search i {
+    background-color: #FFCCFD;
+    color: white;
+}
+
+.contact {
+    background-color: #3d1a48;
+    color: black(226, 2, 2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    line-height: 2;
+    transition: transfrom 0.3ms;
+}
+
+.contact li {
+    color: white;
+    line-height: 5;
+    text-align: center;
+
+}
+
+.contact p {
+    color: white;
+}
+
+.contact a {
+    color: white;
+}
+
+.contact i {
+    color: white;
+}
+
+.contact-b {
+    border-right: solid white;
+    padding: 30px;
+}
+
+.contact-p {
+    border-left: solid white;
+    padding: 30px;
+}
+
+.footer {
+    background-color: #3d1a48;
+    text-align: center;
+    color: white;
+    border-top: solid white;
+    font-size: small;
+}
+
+.b-c {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: 1px solid black;
+}
+
+.b-c button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    background: none;
+    border: none;
+    margin-top: 50px;
+}
+
+.b-c button:hover {
+    border-bottom: 3px solid #933C24;
+}
+
+.g-t {
+    border-radius: 150px 41px 0px 0px;
+    background-color: #3d1a48;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    line-height: 2;
+}
+
+.g-t li {
+    color: white;
+    line-height: 5;
+    text-align: center;
+
+}
+
+.g-t p {
+    color: white;
+}
+
+.g-t a {
+    color: white;
+}
+
+.g-t i {
+    color: white;
+}
+
+.g-t-b {
+    border-right: solid white;
+    padding: 30px;
+}
+
+.g-t-p {
+    border-left: solid white;
+    padding: 30px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    border-top: solid white;
+    font-size: small;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.desc {
+    display: flex;
+    justify-self: space-around;
+    border-radius: 36px 36px 200px 36px;
+    background-image: linear-gradient(to bottom right, #CA26FF, #FFF3B0);
+    margin: 10px;
+}
+
+.cinema {
+    margin-left: 40px;
+    height: 500px;
+    width: 600px;
+    margin: 40px;
+    padding-right: 100px;
+}
+
+.cinema h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'comfortaa';
+}
+
+.cinema h3 {
+    padding: 30px;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-bottom: 40px;
+    font-family: 'comfortaa';
+}
+
+.cinema p {
+    line-height: 30px;
+    color: white;
+    font-family: 'comfortaa';
+}
+
+.docemant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-d img {
+    height: 400px;
+}
+
+.start button {
+    margin: 35px;
+    border: 0;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    background: none;
+    border-radius: 34px;
+}
+
+.start button a {
+    display: flex;
+    justify-content: center;
+    background-color: #3d1a48;
+    padding: 12px;
+    width: 200px;
+    border-radius: 26px;
+    text-decoration: none;
+    color: white;
+}
+
+.top-in-2024 {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 0;
+    width: 100%;
+}
+
+.top-in-2024::before {
+    content: "";
+    border-bottom: 1px solid #000;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.top-in-2024::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+
+.top-in-2024 span {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #555;
+    margin-right: 10px;
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 45px;
+    width: 90%;
+    margin: 5px auto;
+}
+
+.img img:hover {
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+.images {
+    margin-bottom: 40px;
+}
+
+.images p {
+    padding-top: 8px;
+    margin: 10px;
+    background-color: #3d1a48;
+    color: white;
+    width: 170px;
+    height: 30px;
+    border-radius: 25px;
+    font-size: small;
+    text-align: center;
+}
+
+.buttons h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+.Explore{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 45px;
+    width: 90%;
+    margin: 5px auto;
+}
+.img-exp{
+    margin-bottom: 40px;
+
+}
