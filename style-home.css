@@ -362,7 +362,8 @@
     width: 90%;
     margin: 5px auto;
 }
-.img-exp{
+.img-exp img{
+    height: 300px;
     margin-bottom: 40px;
 
 }
