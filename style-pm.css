@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
-    font-family:"Poppins", sans-serif;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    background-color:  #330031;
+}
+body{
+  background-image: linear-gradient(to bottom right, #CA26FF, #FFF3B0);
 }
 .menu{
     width: 100%;
@@ -13,7 +13,8 @@
     padding: 2px 3%;
   position: relative;
 }
-.nav-bar{
+.nav-bar{ 
+    background:none;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,10 +23,11 @@
     font-weight: 200;
     padding-left: 30px;
     padding-bottom: 10px;
-    border-bottom: solid white;
-    position: fixed;
     top: 0;
     width: 95%;
+}
+.nav-bar h2{
+    margin-top: 10px;
 }
 .main{
     top:60px;
@@ -36,6 +38,9 @@
     font-size: 1.3em;
     font-weight: 500;
     padding-left: 30px;
+}
+.icon li a:hover{
+    color:white;
 }
 .icon ul{
     display: flex;
@@ -57,104 +62,110 @@
     border: solid white;
     border-radius: 25px;
 }
-.search-inp{
+.search input{
     height: 36px;
     width: 200px;
     background: none;
     border: none;
     outline: none;
 }
-
-
 .search a{
     margin: 5px;
+    padding-right: 30px;
     background-color: #FFCCFD;
     font-size: medium;
     text-align: center;
     background-color: none;
     text-decoration: none;
     font-size: medium;
+    border: none;
 }
 .search i{
      background-color: #FFCCFD;
 }
-.g-t{
+.contact{
+    background-color: #3d1a48;
+    color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 300px;
     width: 100%;
     line-height: 2;
+    transition: transfrom 0.3ms;
 }
-.g-t li{
-    color:white;
+.contact li{
+    color:white; 
     line-height: 5;
     text-align: center;
 
 }
-.g-t p{
+.contact p{
    color: white;
 }
-.g-t a{
+.contact a{
     color: white;
 }
-.g-t i{
+.contact i{
     color: white;
 }
-.g-t-b{
+.contact-b{
     border-right:  solid white;
     padding: 30px;
 }
-.g-t-p{
+.contact-p{
     border-left: solid white;
     padding: 30px;
 }
 .footer{
+    background-color: #3d1a48;
     text-align: center;
     color: white;
     border-top: solid white;
     font-size: small;
 }
-.tarif{
+.b-c{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    width: 100%;
-    margin-top: 100px;
-    background-color:#330031;
 }
-.card{
-    
-    background-color: white;
-    width: 250px;
-    height: 360px;
-    margin-bottom: 30px; 
-    padding: 20px; 
-    border-radius: 20px;
-    color: #000000;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.365);
+.b-c button{
+    width: 80px;
+    height: 30px;
+    border-radius: 35px;
+    background-color: #FFCCFD;
+    border: none;
+    margin-top: 50px;
+}
+.b-c button:hover{
+    background-color:#3d1a48;
+    color: white;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 45px;
+    width: 90%;
+    margin: 5px auto;
     transition: transform 0.3s;
 }
-.catigori h2{
-    color: black;
-    background: white;
+.img img:hover{
+    transform: scale(0.9);
+}
+.images{
+    margin-bottom: 40px;
+}
+.images p{
+    padding-top: 8px;
+    margin: 10px;
+    background-color: #3d1a48;
+    color: white;
+    width: 170px;
+    height: 30px;
+    border-radius: 25px;
+    font-size: small;
     text-align: center;
 }
-.catigori p{
-    font-size: small;
-    color: #000000;
-    background-color: white;
-    height: 150px;
-}
-.btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    border-radius: 35px;
-}
-.button{
-    font-size: larger;
-    color: white;
-    border: none;
-}
+
