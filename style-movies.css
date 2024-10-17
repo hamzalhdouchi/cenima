@@ -141,6 +141,43 @@ body{
     background-color:#3d1a48;
     color: white;
 }
+.g-t{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    line-height: 2;
+}
+.g-t li{
+    color:white;
+    line-height: 5;
+    text-align: center;
+
+}
+.g-t p{
+   color: white;
+}
+.g-t a{
+    color: white;
+}
+.g-t i{
+    color: white;
+}
+.g-t-b{
+    border-right:  solid white;
+    padding: 30px;
+}
+.g-t-p{
+    border-left: solid white;
+    padding: 30px;
+}
+.footer{
+    text-align: center;
+    color: white;
+    border-top: solid white;
+    font-size: small;
+}
 .img{
     display: flex;
     flex-direction: row;
@@ -149,10 +186,10 @@ body{
     padding: 30px 45px;
     width: 90%;
     margin: 5px auto;
-    transition: transform 0.3s;
 }
 .img img:hover{
     transform: scale(0.9);
+    transition: transform 0.3s;
 }
 .images{
     margin-bottom: 40px;
