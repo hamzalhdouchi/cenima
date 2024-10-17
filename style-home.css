@@ -208,9 +208,17 @@
 
 .g-t-p {
     border-left: solid white;
-    padding: 30px;
+    padding: 40px;
 }
-
+.Login{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    gap: 70px;
+}
+.Login a{
+    padding: 0px;
+}
 .footer {
     text-align: center;
     color: white;
@@ -240,13 +248,13 @@
     padding-top: 50px;
 }
 
-.cinema h3 {
-    padding bottom: 30px;
+.cinema h3{
     color: white;
     font-size: 30px;
     letter-spacing: 10px;
     margin-bottom: 40px;
     font-family: 'comfortaa';
+    padding-bottom: 30px;
 }
 
 .cinema p {
