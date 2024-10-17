@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "comfortaa" sans-serif;
 }
 body{
   background: #FFCCFD;
@@ -24,11 +26,12 @@ body{
     padding-bottom: 10px;
     top: 0;
     width: 100%;
-    border-bottom: solid white;
 }
 .nav-bar h2{
     margin-top: 10px;
     color: black;
+    font-family: 'comfortaa';
+    font-size: 20px;
 }
 .main{
     top:60px;
@@ -49,6 +52,7 @@ body{
     align-items: center;
 }
 .icon ul a{
+    font-family: 'comfortaa';
     text-decoration: none;
     color:black;
     font-size: medium;
@@ -88,7 +92,8 @@ body{
      background-color: #3d1a48;
      color: white;
 }
-.contact{
+.contact{    
+    font-family: 'comfortaa';
     background-color: #3d1a48;
     color: black;
     display: flex;
@@ -123,6 +128,7 @@ body{
     padding: 30px;
 }
 .footer{
+    font-family: 'comfortaa';
     background-color: #3d1a48;
     text-align: center;
     color: white;
@@ -147,6 +153,7 @@ body{
     color: white;
 }
 .g-t {
+    font-family: 'comfortaa';
     background-color: #3d1a48;
     display: flex;
     justify-content: space-around;
@@ -194,6 +201,7 @@ body{
     padding: 0px;
 }
 .footer{
+    font-family: 'comfortaa';
     text-align: center;
     color: white;
     border-top: solid white;
@@ -217,6 +225,7 @@ body{
     border-radius: 36px;
 }
 .cont h2{
+    font-family: 'comfortaa';
     box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
     margin-top: 20px;
     text-align: center;
@@ -244,7 +253,7 @@ body{
 }
 .btn{
     box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
-    
+    font-family: 'comfortaa';
     display: flex;
     justify-self: end;
     justify-content: center;

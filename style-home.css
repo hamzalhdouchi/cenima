@@ -28,10 +28,11 @@
     border-bottom: solid white;
 }
 
-.nav-bar h1{
+.nav-bar h2{
     margin-top: 10px;
     color: black;
     font-family: 'comfortaa';
+    font-size: 20px;
 }
 
 .main {
@@ -57,6 +58,7 @@
 }
 
 .icon ul a {
+    font-family: 'comfortaa';
     text-decoration: none;
     color: black;
     font-size: medium;
@@ -102,6 +104,7 @@
 }
 
 .contact {
+    font-family: 'comfortaa';
     background-color: #3d1a48;
     color: black(226, 2, 2);
     display: flex;
@@ -142,7 +145,8 @@
     padding: 30px;
 }
 
-.footer {
+.footer {    
+    font-family: 'comfortaa';
     background-color: #3d1a48;
     text-align: center;
     color: white;
@@ -173,6 +177,7 @@
 }
 
 .g-t {
+    font-family: 'comfortaa';
     background-color: #3d1a48;
     display: flex;
     justify-content: space-around;
@@ -218,12 +223,6 @@
 }
 .Login a{
     padding: 0px;
-}
-.footer {
-    text-align: center;
-    color: white;
-    border-top: solid white;
-    font-size: small;
 }
 
 .desc {
@@ -273,7 +272,8 @@
     height: 400px;
 }
 
-.start button {
+.start button { 
+    font-family: 'comfortaa';
     margin: 35px;
     border: 0;
     text-decoration: none;
@@ -298,6 +298,7 @@
 }
 
 .top-in-2024 {
+    font-family: 'comfortaa';
     display: flex;
     align-items: center;
     margin: 20px 0 0 0;
@@ -344,6 +345,7 @@
 }
 
 .images p {
+    font-family: 'comfortaa';
     padding-top: 8px;
     margin: 10px;
     background-color: #3d1a48;
@@ -399,6 +401,7 @@
     transition: transform 0.3s;
 }
 .catigori h2{
+    font-family: 'comfortaa';
     color: white;
     background:#3d1a48;
     text-align: center;
@@ -406,16 +409,19 @@
     border-radius: 20px 20px 0px 0px;
 }
 .catigori pre{
+    
     font-size: small;
     color: #000000;
     background-color: white;
     height: px;
 }
 .dec p{
+    font-family: 'comfortaa';
     padding: 10px;
 
 }
 .prix{
+    font-family: 'comfortaa';
     display: flex;
     justify-content: space-between;
     padding: 10px;
