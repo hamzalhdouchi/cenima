@@ -189,7 +189,7 @@ body{
 }
 .img img:hover{
     transform: scale(0.9);
-    transition: transform 0.3s;
+    transition: transform 0.33s;
 }
 .images{
     margin-bottom: 40px;
