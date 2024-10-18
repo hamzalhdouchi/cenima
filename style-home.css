@@ -283,26 +283,29 @@
     height: 400px;
 }
 
-.start button { 
+.start { 
     font-family: 'comfortaa';
     margin: 35px;
     border: 0;
     text-decoration: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
     align-items: center;
     height: 30px;
-    width: 100px;
+    width: 440px;
     background: none;
     border-radius: 34px;
 }
 
-.start button a {
+.start a{
+    cursor: pointer;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #3d1a48;
     padding: 12px;
-    width: 200px;
+    height: 30px;
+    width: 150px;
     border-radius: 26px;
     text-decoration: none;
     color: white;
