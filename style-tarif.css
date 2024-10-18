@@ -20,10 +20,8 @@
     color: aliceblue;
     font-size: 1.3em;
     font-weight: 200;
-    padding-left: 30px;
-    padding-bottom: 10px;
-    border-bottom: solid white;
-    position: fixed;
+
+    padding-left: 30px;    padding-bottom: 10px;
     top: 0;
     width: 95%;
 }
@@ -87,6 +85,7 @@
 }
 .g-t {
     font-family: 'comfortaa';
+    background-color: #330031;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -96,6 +95,7 @@
 }
 
 .g-t li {
+    list-style: circle;
     color: white;
     line-height: 5;
     text-align: center;
@@ -107,6 +107,8 @@
 }
 
 .g-t a {
+    text-decoration: none;
+    padding: 10px;
     color: white;
 }
 
@@ -116,7 +118,7 @@
 
 .g-t-b {
     border-right: solid white;
-    padding: 30px;
+    padding: 40px;
 }
 
 .g-t-p {
@@ -133,11 +135,11 @@
     padding: 0px;
 }
 .footer{
+    font-size: small;
     font-family: 'comfortaa';
     text-align: center;
     color: white;
-    border-top: solid white;
-    font-size: small;
+
 }
 .tarif{
     font-family: 'comfortaa';
